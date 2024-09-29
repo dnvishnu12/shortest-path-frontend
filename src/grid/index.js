@@ -36,7 +36,7 @@ const Grid = () => {
   };
 
   const handleSubmit = async () => {
-    const response = await fetch("http://localhost:5000/api/find-path", {
+    const response = await fetch("https://shortest-path-backend-cdja.onrender.com/api/find-path", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
